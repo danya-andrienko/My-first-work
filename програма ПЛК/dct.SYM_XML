@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="ISO-8859-5"?>
+
+<CoDeSysSymbolTable>
+	<SymbolHeader>
+		<Version>-1</Version>
+		<ProjectId>5764911</ProjectId>
+		<WorkbenchVersion>2.3.9.41</WorkbenchVersion>
+		<CompilerVersion>2.3.9.41</CompilerVersion>
+	</SymbolHeader>
+	<SymbolTypeList>
+		<TypeSimple TypeId="0" Size="1">BOOL</TypeSimple>
+		<TypeUserdef TypeId="1" Size="4">
+			<Name>RS</Name>
+			<Var Type="0" Flags="257" Access="114" RefId="19" Offset="0">SET</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="19" Offset="1">RESET1</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="19" Offset="2">Q1</Var>
+		</TypeUserdef>
+		<TypeUserdef TypeId="2" Size="4">
+			<Name>R_TRIG</Name>
+			<Var Type="0" Flags="256" Access="114" RefId="16" Offset="0">M</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="16" Offset="1">CLK</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="16" Offset="2">Q</Var>
+		</TypeUserdef>
+		<TypeSimple TypeId="3" Size="4">TIME</TypeSimple>
+		<TypeUserdef TypeId="4" Size="24">
+			<Name>TON</Name>
+			<Var Type="0" Flags="256" Access="114" RefId="24" Offset="0">M</Var>
+			<Var Type="3" Flags="256" Access="114" RefId="24" Offset="4">StartTime</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="24" Offset="8">IN</Var>
+			<Var Type="3" Flags="257" Access="114" RefId="24" Offset="12">PT</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="24" Offset="16">Q</Var>
+			<Var Type="3" Flags="258" Access="114" RefId="24" Offset="20">ET</Var>
+		</TypeUserdef>
+		<TypeUserdef TypeId="5" Size="24">
+			<Name>TOF</Name>
+			<Var Type="0" Flags="256" Access="114" RefId="23" Offset="0">M</Var>
+			<Var Type="3" Flags="256" Access="114" RefId="23" Offset="4">StartTime</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="23" Offset="8">IN</Var>
+			<Var Type="3" Flags="257" Access="114" RefId="23" Offset="12">PT</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="23" Offset="16">Q</Var>
+			<Var Type="3" Flags="258" Access="114" RefId="23" Offset="20">ET</Var>
+		</TypeUserdef>
+		<TypeSimple TypeId="6" Size="0">BOOL</TypeSimple>
+		<TypeSimple TypeId="7" Size="2">WORD</TypeSimple>
+	</SymbolTypeList>
+	<SymbolVarList>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="264">.auto</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="264">.auto</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="293">.levo</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="293">.levo</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="22">.MKV1</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="22">.MKV1</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="24">.MKV2</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="24">.MKV2</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="26">.MKV3</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="26">.MKV3</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="28">.MKV4</Var>
+		<Var Type="7" Flags="33554464" Access="98" RefId="2" Offset="28">.MKV4</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="289">.nazad</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="289">.nazad</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="265">.nazad1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="265">.nazad1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="291">.nuz</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="291">.nuz</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="288">.pered</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="288">.pered</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="292">.pravo</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="292">.pravo</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="266">.pravo1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="266">.pravo1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="269">.ruch</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="269">.ruch</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="256">.t0rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="256">.t0rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="257">.t1rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="257">.t1rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="258">.t2rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="258">.t2rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="259">.t3rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="259">.t3rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="260">.t4rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="260">.t4rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="261">.t5rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="261">.t5rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="262">.t6rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="262">.t6rb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="290">.verh</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="1" Offset="290">.verh</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="268">.verh1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="268">.verh1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="0">.vuh1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="0">.vuh1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="1">.vuh2</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="1">.vuh2</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="2">.vuh31</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="2">.vuh31</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="3">.vuh4</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="3">.vuh4</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="263">.zahvatrb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="263">.zahvatrb1</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="267">.zfhvat</Var>
+		<Var Type="6" Flags="33554464" Access="98" RefId="2" Offset="267">.zfhvat</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="593">PLC_PRG.bb</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="682">PLC_PRG.dd</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="157">PLC_PRG.gh</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="895">PLC_PRG.jhg</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="42">PLC_PRG.kl</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="41">PLC_PRG.nn</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="832">PLC_PRG.pp</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="0">PLC_PRG.pusk</Var>
+		<Var Type="1" Flags="64" Access="98" RefId="4" Offset="4" TopLevelType="1">PLC_PRG.rs1</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="6" TopLevelType="1">PLC_PRG.rs1.Q1</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="5" TopLevelType="1">PLC_PRG.rs1.RESET1</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="4" TopLevelType="1">PLC_PRG.rs1.SET</Var>
+		<Var Type="1" Flags="64" Access="98" RefId="4" Offset="828" TopLevelType="1">PLC_PRG.rs11</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="830" TopLevelType="1">PLC_PRG.rs11.Q1</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="829" TopLevelType="1">PLC_PRG.rs11.RESET1</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="828" TopLevelType="1">PLC_PRG.rs11.SET</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="168">PLC_PRG.simp01</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="169">PLC_PRG.simp11</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="170">PLC_PRG.simp21</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="171">PLC_PRG.simp31</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="172">PLC_PRG.simp41</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="173">PLC_PRG.simp61</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="174">PLC_PRG.simp71</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="175">PLC_PRG.simp81</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="568" TopLevelType="4">PLC_PRG.t</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="588" TopLevelType="4">PLC_PRG.t.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="576" TopLevelType="4">PLC_PRG.t.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="568" TopLevelType="4">PLC_PRG.t.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="580" TopLevelType="4">PLC_PRG.t.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="584" TopLevelType="4">PLC_PRG.t.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="572" TopLevelType="4">PLC_PRG.t.StartTime</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="1">PLC_PRG.t0rb1_cd</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="44" TopLevelType="4">PLC_PRG.t1</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="64" TopLevelType="4">PLC_PRG.t1.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="52" TopLevelType="4">PLC_PRG.t1.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="44" TopLevelType="4">PLC_PRG.t1.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="56" TopLevelType="4">PLC_PRG.t1.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="60" TopLevelType="4">PLC_PRG.t1.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="48" TopLevelType="4">PLC_PRG.t1.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="132" TopLevelType="4">PLC_PRG.t11</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="152" TopLevelType="4">PLC_PRG.t11.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="140" TopLevelType="4">PLC_PRG.t11.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="132" TopLevelType="4">PLC_PRG.t11.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="144" TopLevelType="4">PLC_PRG.t11.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="148" TopLevelType="4">PLC_PRG.t11.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="136" TopLevelType="4">PLC_PRG.t11.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="732" TopLevelType="4">PLC_PRG.t123</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="752" TopLevelType="4">PLC_PRG.t123.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="740" TopLevelType="4">PLC_PRG.t123.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="732" TopLevelType="4">PLC_PRG.t123.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="744" TopLevelType="4">PLC_PRG.t123.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="748" TopLevelType="4">PLC_PRG.t123.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="736" TopLevelType="4">PLC_PRG.t123.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="68" TopLevelType="4">PLC_PRG.t22</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="88" TopLevelType="4">PLC_PRG.t22.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="76" TopLevelType="4">PLC_PRG.t22.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="68" TopLevelType="4">PLC_PRG.t22.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="80" TopLevelType="4">PLC_PRG.t22.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="84" TopLevelType="4">PLC_PRG.t22.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="72" TopLevelType="4">PLC_PRG.t22.StartTime</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="161">PLC_PRG.t2rb1_cd</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="608" TopLevelType="4">PLC_PRG.t33</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="628" TopLevelType="4">PLC_PRG.t33.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="616" TopLevelType="4">PLC_PRG.t33.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="608" TopLevelType="4">PLC_PRG.t33.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="620" TopLevelType="4">PLC_PRG.t33.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="624" TopLevelType="4">PLC_PRG.t33.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="612" TopLevelType="4">PLC_PRG.t33.StartTime</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="162">PLC_PRG.t3rb1_cd</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="163">PLC_PRG.t4rb1_cd</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="632" TopLevelType="4">PLC_PRG.t55</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="652" TopLevelType="4">PLC_PRG.t55.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="640" TopLevelType="4">PLC_PRG.t55.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="632" TopLevelType="4">PLC_PRG.t55.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="644" TopLevelType="4">PLC_PRG.t55.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="648" TopLevelType="4">PLC_PRG.t55.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="636" TopLevelType="4">PLC_PRG.t55.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="804" TopLevelType="4">PLC_PRG.t567</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="824" TopLevelType="4">PLC_PRG.t567.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="812" TopLevelType="4">PLC_PRG.t567.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="804" TopLevelType="4">PLC_PRG.t567.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="816" TopLevelType="4">PLC_PRG.t567.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="820" TopLevelType="4">PLC_PRG.t567.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="808" TopLevelType="4">PLC_PRG.t567.StartTime</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="164">PLC_PRG.t5rb1_cd</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="165">PLC_PRG.t6rb1_cd</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="166">PLC_PRG.t7rb1_cd</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="167">PLC_PRG.t8rb1_cd</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="681">PLC_PRG.tank</Var>
+		<Var Type="5" Flags="64" Access="98" RefId="4" Offset="840" TopLevelType="5">PLC_PRG.tf1</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="860" TopLevelType="5">PLC_PRG.tf1.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="848" TopLevelType="5">PLC_PRG.tf1.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="840" TopLevelType="5">PLC_PRG.tf1.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="852" TopLevelType="5">PLC_PRG.tf1.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="856" TopLevelType="5">PLC_PRG.tf1.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="844" TopLevelType="5">PLC_PRG.tf1.StartTime</Var>
+		<Var Type="2" Flags="64" Access="98" RefId="4" Offset="8" TopLevelType="2">PLC_PRG.tg1</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="9" TopLevelType="2">PLC_PRG.tg1.CLK</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="8" TopLevelType="2">PLC_PRG.tg1.M</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="10" TopLevelType="2">PLC_PRG.tg1.Q</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="864" TopLevelType="4">PLC_PRG.tn2</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="884" TopLevelType="4">PLC_PRG.tn2.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="872" TopLevelType="4">PLC_PRG.tn2.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="864" TopLevelType="4">PLC_PRG.tn2.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="876" TopLevelType="4">PLC_PRG.tn2.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="880" TopLevelType="4">PLC_PRG.tn2.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="868" TopLevelType="4">PLC_PRG.tn2.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="1076" TopLevelType="4">PLC_PRG.tonnnn</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="1096" TopLevelType="4">PLC_PRG.tonnnn.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="1084" TopLevelType="4">PLC_PRG.tonnnn.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="1076" TopLevelType="4">PLC_PRG.tonnnn.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="1088" TopLevelType="4">PLC_PRG.tonnnn.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="1092" TopLevelType="4">PLC_PRG.tonnnn.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="1080" TopLevelType="4">PLC_PRG.tonnnn.StartTime</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="834">PLC_PRG.ts1</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="836">PLC_PRG.ts2</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="837">PLC_PRG.ts3</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="838">PLC_PRG.ts4</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="835">PLC_PRG.ts8</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="756" TopLevelType="4">PLC_PRG.tt3</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="776" TopLevelType="4">PLC_PRG.tt3.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="764" TopLevelType="4">PLC_PRG.tt3.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="756" TopLevelType="4">PLC_PRG.tt3.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="768" TopLevelType="4">PLC_PRG.tt3.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="772" TopLevelType="4">PLC_PRG.tt3.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="760" TopLevelType="4">PLC_PRG.tt3.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="656" TopLevelType="4">PLC_PRG.tt45</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="676" TopLevelType="4">PLC_PRG.tt45.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="664" TopLevelType="4">PLC_PRG.tt45.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="656" TopLevelType="4">PLC_PRG.tt45.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="668" TopLevelType="4">PLC_PRG.tt45.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="672" TopLevelType="4">PLC_PRG.tt45.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="660" TopLevelType="4">PLC_PRG.tt45.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="684" TopLevelType="4">PLC_PRG.ttt</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="704" TopLevelType="4">PLC_PRG.ttt.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="692" TopLevelType="4">PLC_PRG.ttt.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="684" TopLevelType="4">PLC_PRG.ttt.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="696" TopLevelType="4">PLC_PRG.ttt.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="700" TopLevelType="4">PLC_PRG.ttt.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="688" TopLevelType="4">PLC_PRG.ttt.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="708" TopLevelType="4">PLC_PRG.tttt</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="728" TopLevelType="4">PLC_PRG.tttt.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="716" TopLevelType="4">PLC_PRG.tttt.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="708" TopLevelType="4">PLC_PRG.tttt.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="720" TopLevelType="4">PLC_PRG.tttt.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="724" TopLevelType="4">PLC_PRG.tttt.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="712" TopLevelType="4">PLC_PRG.tttt.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="780" TopLevelType="4">PLC_PRG.tttttt</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="800" TopLevelType="4">PLC_PRG.tttttt.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="788" TopLevelType="4">PLC_PRG.tttttt.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="780" TopLevelType="4">PLC_PRG.tttttt.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="792" TopLevelType="4">PLC_PRG.tttttt.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="796" TopLevelType="4">PLC_PRG.tttttt.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="784" TopLevelType="4">PLC_PRG.tttttt.StartTime</Var>
+		<Var Type="4" Flags="64" Access="98" RefId="4" Offset="896" TopLevelType="4">PLC_PRG.tyu</Var>
+		<Var Type="3" Flags="2" Access="98" RefId="4" Offset="916" TopLevelType="4">PLC_PRG.tyu.ET</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="904" TopLevelType="4">PLC_PRG.tyu.IN</Var>
+		<Var Type="0" Flags="0" Access="98" RefId="4" Offset="896" TopLevelType="4">PLC_PRG.tyu.M</Var>
+		<Var Type="3" Flags="1" Access="98" RefId="4" Offset="908" TopLevelType="4">PLC_PRG.tyu.PT</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="912" TopLevelType="4">PLC_PRG.tyu.Q</Var>
+		<Var Type="3" Flags="0" Access="98" RefId="4" Offset="900" TopLevelType="4">PLC_PRG.tyu.StartTime</Var>
+		<Var Type="0" Flags="64" Access="98" RefId="4" Offset="592">PLC_PRG.yes</Var>
+	</SymbolVarList>
+	<SymbolTaskList/>
+	<SymbolTargetSettings>
+		<MaxNumberOfPOUs>16383</MaxNumberOfPOUs>
+		<Segments>
+			<Segment Area="0" RefId="0" Address="0" Size="1000" Attributes="0"/>
+			<Segment Area="0" RefId="1" Address="1000" Size="8191" Attributes="0"/>
+			<Segment Area="0" RefId="2" Address="9192" Size="8191" Attributes="0"/>
+			<Segment Area="0" RefId="3" Address="17384" Size="4096" Attributes="2"/>
+			<Segment Area="0" RefId="4" Address="21480" Size="131072" Attributes="1"/>
+		</Segments>
+	</SymbolTargetSettings>
+</CoDeSysSymbolTable>
