@@ -1,0 +1,515 @@
+<project projectname="MP9C" projectauthor="Danya" screenwidth="800" screenheight="600" screendiffers="false" runscreenwidth="800" runscreenheight="600" updateperiod="1000" eventsdbname="events" historydbname="history" storagedbperiod="2" notpriority="100" defaultfont="0" certificatename="TeslaSCADA2" certperiod="3650" showserverevents="true" usetelegrambot="false" parentpath="C:\TeslaSCADA_IDE" bottokenuse="false" bottokenname="" ensavetags="false" maxattempts="3" savetagsdbname="savetagsdb" autologout="false" logouttime="15">
+   <windows>
+      <window name="Экран0" color="0x001a80ff" type="0" windowheight="720" windowwidth="1080" usepassword="false" password="" groupname="" subgroupname="" posx="-1000" posy="-1000">
+         <objects>
+            <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник" posx="1.0" posy="60.0" width="456.0" height="409.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода" posx="57.0" posy="-7.0" width="330.0" height="80.0" angle="0" lock="false" text="Панель керування МП9" fonttype="0" fontsize="30" textplacement="1" textcolor="0xffffffff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода1" posx="-79.0" posy="40.0" width="311.0" height="80.0" angle="0" lock="false" text="ПУСК" fonttype="0" fontsize="20" textplacement="1" textcolor="0xb31a1aff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода2" posx="160.0" posy="39.0" width="311.0" height="80.0" angle="0" lock="false" text="Вибір режиму роботи" fonttype="0" fontsize="20" textplacement="1" textcolor="0x1a4d1aff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода3" posx="121.0" posy="76.0" width="224.0" height="80.0" angle="0" lock="false" text="Автоматичний" fonttype="0" fontsize="20" textplacement="1" textcolor="0x1a4d1aff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода4" posx="110.0" posy="125.0" width="224.0" height="80.0" angle="0" lock="false" text="Ручне керування" fonttype="0" fontsize="20" textplacement="1" textcolor="0x1a4d1aff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.ToggleButtonView" name="Кнопка переключатель1" posx="320.0" posy="100.0" width="100.0" height="40.0" angle="0" lock="false" text="OFF" textcolor="0x008000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="авто" value="0" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="авто" functiontype="2" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <property key="textinput">
+                  <property class="tesla.scada2.model.properties.TextInputProperty" tagname="авто" value="1" type="1" truetext="ВКЛ" falsetext="ВЫКЛ" textbefore="" textafter="" decimalpos="0">
+                     <textrange/>
+                  </property>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода5" posx="103.0" posy="172.0" width="255.0" height="80.0" angle="0" lock="false" text="Кнопки ручного керування" fonttype="0" fontsize="20" textplacement="1" textcolor="0x993300ff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.RightArrowButtonView" name="Правая Стрела" posx="26.0" posy="242.0" width="113.0" height="40.0" angle="0" lock="false" text="Поворот на право" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="поворот" value="1" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="поворот" functiontype="0" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.LeftArrowButtonView" name="Левая Стрела" posx="20.0" posy="286.0" width="114.0" height="40.0" angle="0" lock="false" text="Поворот на ліво" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="поворот" value="0" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="поворот" functiontype="1" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.RightArrowButtonView" name="Правая Стрела1" posx="362.0" posy="208.0" width="113.0" height="40.0" angle="270" lock="false" text="Захват вперед" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="назад" value="0" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="назад" functiontype="1" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <property key="flash">
+                  <property class="tesla.scada2.model.properties.FlashProperty" value="0" type="0" trueflashduration="1000" falseflashduration="0">
+                     <durationrange/>
+                  </property>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.LeftArrowButtonView" name="Левая Стрела1" posx="363.0" posy="333.0" width="114.0" height="40.0" angle="270" lock="false" text="Захват назад" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="назад" value="1" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="назад" functiontype="0" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.ToggleButtonView" name="Кнопка переключатель" posx="209.0" posy="273.0" width="100.0" height="40.0" angle="0" lock="false" text="OFF" textcolor="0x008000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="верх" value="0" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="верх" functiontype="0" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <property key="textinput">
+                  <property class="tesla.scada2.model.properties.TextInputProperty" tagname="верх" value="1" type="1" truetext="ВКЛ" falsetext="ВЫКЛ" textbefore="" textafter="" decimalpos="0">
+                     <textrange/>
+                  </property>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.ToggleButtonView" name="Кнопка переключатель3" posx="210.0" posy="378.0" width="100.0" height="40.0" angle="0" lock="false" text="OFF" textcolor="0x008000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="верх" value="1" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="верх" functiontype="1" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <property key="textinput">
+                  <property class="tesla.scada2.model.properties.TextInputProperty" tagname="верх" value="0" type="1" truetext="ВКЛ" falsetext="ВЫКЛ" textbefore="" textafter="" decimalpos="0">
+                     <textrange/>
+                  </property>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода6" posx="210.0" posy="205.0" width="100.0" height="80.0" angle="0" lock="false" text="Підняти" fonttype="0" fontsize="20" textplacement="1" textcolor="0x990000ff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода7" posx="208.0" posy="299.0" width="100.0" height="80.0" angle="0" lock="false" text="Опустити" fonttype="0" fontsize="20" textplacement="1" textcolor="0x990000ff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.TextView" name="Текст/Поле ввода8" posx="37.0" posy="314.0" width="100.0" height="80.0" angle="0" lock="false" text="Захват" fonttype="0" fontsize="20" textplacement="1" textcolor="0x990000ff" useborder="false" bordercolor="0x000000ff" linewidth="2" fill="false" fillcolor="0xffffffff" underline="false">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.ToggleButtonView" name="Кнопка переключатель4" posx="38.0" posy="376.0" width="100.0" height="40.0" angle="0" lock="false" text="OFF" textcolor="0x008000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="зах" value="1" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="зах" functiontype="2" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <property key="textinput">
+                  <property class="tesla.scada2.model.properties.TextInputProperty" tagname="зах" value="1" type="1" truetext="ВКЛ" falsetext="ВЫКЛ" textbefore="" textafter="" decimalpos="0">
+                     <textrange/>
+                  </property>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник8" posx="652.0" posy="313.0" width="130.0" height="185.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0xcc6633ff">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.EllipseView" name="Эллипс1" posx="678.0" posy="335.0" width="80.0" height="80.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник16" posx="691.0" posy="100.0" width="217.0" height="92.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0xb34d1aff">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник17" posx="799.0" posy="71.0" width="90.0" height="31.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.EllipseView" name="Эллипс14" posx="831.0" posy="124.0" width="36.0" height="31.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник24" posx="801.0" posy="36.0" width="90.0" height="67.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+               <property key="visibility">
+                  <property class="tesla.scada2.model.properties.VisibilityProperty" tagname="Tag3" value="1" type="0"/>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Групповой Объект" posx="717.0" posy="25.0" width="348.0" height="38.0" angle="0" lock="false">
+               <property key="visibility">
+                  <property class="tesla.scada2.model.properties.VisibilityProperty" tagname="Tag4" value="1" type="0"/>
+               </property>
+               <scripts/>
+               <objects>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="30.0" posy="0.0" width="185.0" height="38.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="30.0" posy="13.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="190.0" posy="13.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="213.0" posy="8.0" width="100.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="0.0" posy="8.0" width="33.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="298.0" posy="23.0" width="48.0" height="3.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+               </objects>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Групповой Объект" posx="645.0" posy="28.0" width="359.0" height="39.0" angle="0" lock="false">
+               <property key="visibility">
+                  <property class="tesla.scada2.model.properties.VisibilityProperty" tagname="Tag5" value="1" type="0"/>
+               </property>
+               <scripts/>
+               <objects>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="100.0" posy="0.0" width="185.0" height="38.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="100.0" posy="14.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="260.0" posy="14.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="0.0" posy="6.0" width="100.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="285.0" posy="6.0" width="33.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="310.0" posy="21.0" width="49.0" height="3.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+               </objects>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Групповой Объект" posx="647.0" posy="47.0" width="359.0" height="39.0" angle="0" lock="false">
+               <property key="visibility">
+                  <property class="tesla.scada2.model.properties.VisibilityProperty" tagname="Tag6" value="1" type="0"/>
+               </property>
+               <scripts/>
+               <objects>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="100.0" posy="0.0" width="185.0" height="38.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="100.0" posy="14.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="260.0" posy="14.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="0.0" posy="6.0" width="100.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="285.0" posy="6.0" width="33.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник25" posx="310.0" posy="21.0" width="49.0" height="3.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+               </objects>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Групповой Объект" posx="717.0" posy="45.0" width="348.0" height="38.0" angle="0" lock="false">
+               <property key="visibility">
+                  <property class="tesla.scada2.model.properties.VisibilityProperty" tagname="Tag7" value="1" type="0"/>
+               </property>
+               <scripts/>
+               <objects>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="30.0" posy="0.0" width="185.0" height="38.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="30.0" posy="13.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="190.0" posy="13.0" width="25.0" height="25.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="213.0" posy="8.0" width="100.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="0.0" posy="8.0" width="33.0" height="30.0" angle="0" lock="false" color="0x000000ff" linewidth="0" fill="true" fillcolor="0x808080ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник26" posx="298.0" posy="23.0" width="48.0" height="3.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+               </objects>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Групповой Объект" posx="695.0" posy="276.0" width="49.0" height="222.0" angle="0" lock="false">
+               <property key="visibility">
+                  <property class="tesla.scada2.model.properties.VisibilityProperty" tagname="назадкц" value="1" type="0"/>
+               </property>
+               <property key="rotation">
+                  <property class="tesla.scada2.model.properties.RotationProperty" tagname="Tag" rotationanglemin="0.0" rotationanglemax="90.0" rotationvaluemin="0.0" rotationvaluemax="-0.99" pivotx="24.0" pivoty="96.0"/>
+               </property>
+               <scripts/>
+               <objects>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник12" posx="6.0" posy="46.0" width="39.0" height="98.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник12" posx="11.0" posy="142.0" width="30.0" height="80.0" angle="0" lock="false" color="0x999999ff" linewidth="2" fill="true" fillcolor="0xb3b3b3ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник12" posx="11.0" posy="26.0" width="30.0" height="20.0" angle="0" lock="false" color="0x999999ff" linewidth="2" fill="true" fillcolor="0xb3b3b3ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник12" posx="0.0" posy="1.0" width="3.0" height="24.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <property key="linecolor">
+                        <property class="tesla.scada2.model.properties.LineColorProperty" tagname="zahvat" value="1" type="0" truecolor="0x1a4d1aff" falsecolor="0x000000ff">
+                           <colorrange/>
+                        </property>
+                     </property>
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник12" posx="0.0" posy="23.0" width="49.0" height="3.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <property key="linecolor">
+                        <property class="tesla.scada2.model.properties.LineColorProperty" tagname="zahvat" value="1" type="0" truecolor="0x1a4d1aff" falsecolor="0x000000ff">
+                           <colorrange/>
+                        </property>
+                     </property>
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник12" posx="46.0" posy="0.0" width="3.0" height="24.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <property key="linecolor">
+                        <property class="tesla.scada2.model.properties.LineColorProperty" tagname="zahvat" value="1" type="0" truecolor="0x1a4d1aff" falsecolor="0x000000ff">
+                           <colorrange/>
+                        </property>
+                     </property>
+                     <scripts/>
+                  </objectView>
+               </objects>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Групповой Объект" posx="694.0" posy="219.0" width="49.0" height="222.0" angle="0" lock="false">
+               <property key="visibility">
+                  <property class="tesla.scada2.model.properties.VisibilityProperty" tagname="перед" value="1" type="0"/>
+               </property>
+               <property key="rotation">
+                  <property class="tesla.scada2.model.properties.RotationProperty" tagname="Tag" rotationanglemin="0.0" rotationanglemax="90.0" rotationvaluemin="0.0" rotationvaluemax="-0.99" pivotx="25.5" pivoty="159.0"/>
+               </property>
+               <scripts/>
+               <objects>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник11" posx="46.0" posy="0.0" width="3.0" height="24.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <property key="linecolor">
+                        <property class="tesla.scada2.model.properties.LineColorProperty" tagname="zahvat" value="1" type="0" truecolor="0x1a4d1aff" falsecolor="0x000000ff">
+                           <colorrange/>
+                        </property>
+                     </property>
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник11" posx="0.0" posy="1.0" width="3.0" height="24.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <property key="linecolor">
+                        <property class="tesla.scada2.model.properties.LineColorProperty" tagname="zahvat" value="1" type="0" truecolor="0x1a4d1aff" falsecolor="0x000000ff">
+                           <colorrange/>
+                        </property>
+                     </property>
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник11" posx="0.0" posy="23.0" width="49.0" height="3.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <property key="linecolor">
+                        <property class="tesla.scada2.model.properties.LineColorProperty" tagname="zahvat" value="1" type="0" truecolor="0x1a4d1aff" falsecolor="0x000000ff">
+                           <colorrange/>
+                        </property>
+                     </property>
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник9" posx="12.0" posy="26.0" width="30.0" height="80.0" angle="0" lock="false" color="0x999999ff" linewidth="2" fill="true" fillcolor="0xb3b3b3ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник10" posx="7.0" posy="104.0" width="39.0" height="98.0" angle="0" lock="false" color="0x000000ff" linewidth="2" fill="true" fillcolor="0x000000ff">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.RectangleView" name="Прямоугольник11" posx="13.0" posy="202.0" width="30.0" height="20.0" angle="0" lock="false" color="0x999999ff" linewidth="2" fill="true" fillcolor="0xb3b3b3ff">
+                     <scripts/>
+                  </objectView>
+               </objects>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.ToggleButtonView" name="Кнопка переключатель" posx="321.0" posy="151.0" width="100.0" height="40.0" angle="0" lock="false" text="OFF" textcolor="0x008000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="ручне" value="0" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="ручне" functiontype="2" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <property key="textinput">
+                  <property class="tesla.scada2.model.properties.TextInputProperty" tagname="ручне" value="1" type="1" truetext="ВКЛ" falsetext="ВЫКЛ" textbefore="" textafter="" decimalpos="0">
+                     <textrange/>
+                  </property>
+               </property>
+               <scripts/>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.ToggleButtonView" name="Кнопка переключатель" posx="25.0" posy="98.0" width="100.0" height="40.0" angle="0" lock="false" text="OFF" textcolor="0x008000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+               <property key="fillcolor">
+                  <property class="tesla.scada2.model.properties.FillColorProperty" tagname="пуск" value="0" type="0" truecolor="0xff0000ff" falsecolor="0x008000ff">
+                     <colorrange/>
+                  </property>
+               </property>
+               <property key="buttoncontrol">
+                  <property class="tesla.scada2.model.properties.ButtonControlProperty" tagname="пуск" functiontype="2" value="0" title="Введите значение" screenname="" command=""/>
+               </property>
+               <property key="textinput">
+                  <property class="tesla.scada2.model.properties.TextInputProperty" tagname="пуск" value="1" type="1" truetext="ВКЛ" falsetext="ВЫКЛ" textbefore="" textafter="" decimalpos="0">
+                     <textrange/>
+                  </property>
+               </property>
+               <scripts/>
+            </objectView>
+         </objects>
+         <scriptnames/>
+      </window>
+   </windows>
+   <scripts>
+      <script name="лэво перед" color="0xd3d3d3ff" type="0" windowheight="600" windowwidth="800" groupname="" subgroupname="" language="0" everycycle="false" extype="0">
+         <objects>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="140.0" posy="119.0" tagname="лево"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="150.0" posy="184.0" tagname="перед"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.OutputTagScriptObject" posx="442.0" posy="141.0" tagname="Tag"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.OrScriptObject" posx="231.0" posy="197.0"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.AndScriptObject" posx="331.0" posy="116.0"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="133.0" posy="232.0" tagname="назадкц"/>
+         </objects>
+         <links>
+            <link FBDInId="1" FBDOutId="3" InId="0" OutId="0"/>
+            <link FBDInId="4" FBDOutId="2" InId="0" OutId="0"/>
+            <link FBDInId="0" FBDOutId="4" InId="0" OutId="0"/>
+            <link FBDInId="3" FBDOutId="4" InId="0" OutId="1"/>
+            <link FBDInId="5" FBDOutId="3" InId="0" OutId="1"/>
+         </links>
+         <opcodes/>
+      </script>
+      <script name="низ перед" color="0xd3d3d3ff" type="0" windowheight="600" windowwidth="800" groupname="" subgroupname="" language="0" everycycle="false" extype="0">
+         <objects>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="121.0" posy="68.0" tagname="низ"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="149.0" posy="131.0" tagname="перед"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.OutputTagScriptObject" posx="472.0" posy="94.0" tagname="Tag7"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.AndScriptObject" posx="321.0" posy="83.0"/>
+         </objects>
+         <links>
+            <link FBDInId="1" FBDOutId="3" InId="0" OutId="1"/>
+            <link FBDInId="0" FBDOutId="3" InId="0" OutId="0"/>
+            <link FBDInId="3" FBDOutId="2" InId="0" OutId="0"/>
+         </links>
+         <opcodes/>
+      </script>
+      <script name="низ назад" color="0xd3d3d3ff" type="0" windowheight="600" windowwidth="800" groupname="" subgroupname="" language="0" everycycle="false" extype="0">
+         <objects>
+            <scriptObject class="tesla.scada2.model.scriptobjects.AndScriptObject" posx="340.0" posy="152.0"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="148.0" posy="162.0" tagname="низ"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="230.0" posy="187.0" tagname="назадкц"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.OutputTagScriptObject" posx="475.0" posy="172.0" tagname="Tag6"/>
+         </objects>
+         <links>
+            <link FBDInId="0" FBDOutId="3" InId="0" OutId="0"/>
+            <link FBDInId="1" FBDOutId="0" InId="0" OutId="0"/>
+            <link FBDInId="2" FBDOutId="0" InId="0" OutId="1"/>
+         </links>
+         <opcodes/>
+      </script>
+      <script name="верх перед" color="0xd3d3d3ff" type="0" windowheight="600" windowwidth="800" groupname="" subgroupname="" language="0" everycycle="false" extype="0">
+         <objects>
+            <scriptObject class="tesla.scada2.model.scriptobjects.OutputTagScriptObject" posx="503.0" posy="127.0" tagname="Tag4"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="229.0" posy="95.0" tagname="верхкц"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="259.0" posy="151.0" tagname="перед"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.AndScriptObject" posx="391.0" posy="102.0"/>
+         </objects>
+         <links>
+            <link FBDInId="2" FBDOutId="3" InId="0" OutId="1"/>
+            <link FBDInId="1" FBDOutId="3" InId="0" OutId="0"/>
+            <link FBDInId="3" FBDOutId="0" InId="0" OutId="0"/>
+         </links>
+         <opcodes/>
+      </script>
+      <script name="верх назад" color="0xd3d3d3ff" type="0" windowheight="600" windowwidth="800" groupname="" subgroupname="" language="0" everycycle="false" extype="0">
+         <objects>
+            <scriptObject class="tesla.scada2.model.scriptobjects.AndScriptObject" posx="358.0" posy="95.0"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="218.0" posy="86.0" tagname="верх кц"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.InputTagScriptObject" posx="231.0" posy="134.0" tagname="назадкц"/>
+            <scriptObject class="tesla.scada2.model.scriptobjects.OutputTagScriptObject" posx="504.0" posy="129.0" tagname="Tag5"/>
+         </objects>
+         <links>
+            <link FBDInId="0" FBDOutId="3" InId="0" OutId="0"/>
+            <link FBDInId="1" FBDOutId="0" InId="0" OutId="0"/>
+            <link FBDInId="2" FBDOutId="0" InId="0" OutId="1"/>
+         </links>
+         <opcodes/>
+      </script>
+   </scripts>
+   <servers>
+      <server class="tesla.scada2.model.servers.ModbusServer" name="ModbusServer1" interval="1000" ipaddress="192.168.0.151" port="502" type="TCP" requesttype="0" rtuviatcp="false" withoutfun6="false"/>
+   </servers>
+   <tags>
+      <tag name="Tag" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="true" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="Tag1" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="true" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="Tag2" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="Tag3" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="Tag4" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="Tag5" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="Tag6" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="Tag7" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="zahvat" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="Локальный" pvinputsource="" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="авто" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=8;" outputdiffers="true" pvoutputserver="ModbusServer1" pvoutputsource="s=1;pt=3;o=0;dt=1;b=8;" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="верх" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=12;" outputdiffers="true" pvoutputserver="ModbusServer1" pvoutputsource="s=1;pt=3;o=0;dt=1;b=12;" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="верх кц" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=3;" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="верхкц" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=3;" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="зах" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=11;" outputdiffers="true" pvoutputserver="ModbusServer1" pvoutputsource="s=1;pt=3;o=0;dt=1;b=11;" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="лево" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=0;" outputdiffers="false" pvoutputserver="ModbusServer1" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="назад" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=9;" outputdiffers="true" pvoutputserver="ModbusServer1" pvoutputsource="s=1;pt=3;o=0;dt=1;b=9;" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="назадкц" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=1;" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="низ" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=2;" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="перед" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=5;" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="поворот" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=10;" outputdiffers="true" pvoutputserver="ModbusServer1" pvoutputsource="s=1;pt=3;o=0;dt=1;b=10;" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="право" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=4;" outputdiffers="false" pvoutputserver="Локальный" pvoutputsource="" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="пуск" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=6;" outputdiffers="true" pvoutputserver="ModbusServer1" pvoutputsource="s=1;pt=3;o=0;dt=1;b=6;" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+      <tag name="ручне" datatype="0" accessmode="1" initialpv="false" numberofelements="10" elementtype="-1" pvinputserver="ModbusServer1" pvinputsource="s=1;pt=3;o=0;dt=1;b=13;" outputdiffers="true" pvoutputserver="ModbusServer1" pvoutputsource="s=1;pt=3;o=0;dt=1;b=13;" enablescaling="false" rawvaluemax="100.0" rawvaluemin="0.0" euvaluemax="100.0" euvaluemin="0.0" offset="0.0" enablehistorizing="false" storageperiod="10000" storeindb="false" enablealarming="false" enablehihi="false" hihilimit="1.0" hihipriority="50" enablehi="false" hilimit="0.0" hipriority="500" enablelo="false" lolimit="0.0" lopriority="500" enablelolo="false" lololimit="0.0" lolopriority="50" enablenormal="false" normalpriority="900" deadband="0.0" opcuaevent="false" enablescript="false" scriptname="" scriptvalue="0.0" scripttype="0" scriptdeadband="0.0" groupname="" subgroupname="" description="" usehistorydeadband="false" historydeadband="0.0"/>
+   </tags>
+   <users/>
+   <libraries/>
+   <recipes/>
+   <sounds/>
+   <mqttpublisher enabled="false" broker="tcp://m11.cloudmqtt.com:16160" Qos="0" enablessl="false" enableclientcert="false" pem="false" protocol="TLSv1.2"/>
+   <emailclient enableclient="false" host="smtp.gmail.com" port="587" tlsssl="0" auth="true"/>
+   <gsmmodem enablegsmmodem="false" portid="" baudrate="9600" flowcontrol="0" databits="3" stopbits="0" parity="1" phonenumbers=""/>
+   <groups/>
+   <subgroups/>
+   <subscreengroups/>
+   <subscriptgroups/>
+   <opcuaserver enabled="true" tcpport="1200" useanonymouspolicy="true" useusernamepasswordpolicy="true" usesecuritynone="true" useBASIC128RSA15_SIGN="true" useBASIC128RSA15_SIGN_ENCRYPT="true" useBASIC256_SIGN="true" useBASIC256_SIGN_ENCRYPT="true" useBASIC256SHA256_SIGN="true" useBASIC256SHA256_SIGN_ENCRYPT="true" servercertificatename="opcuacertificate" servercertdays="3650"/>
+   <webserver enabled="false" http="true" host="localhost" httpport="8080" https="false" httpsport="8443" truestore="" truestorepassword="" keystore="" keystorepassword="" clientauthenabled="false"/>
+   <reports/>
+</project>
